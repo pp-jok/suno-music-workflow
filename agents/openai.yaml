@@ -1,0 +1,4 @@
+interface:
+  display_name: "Suno Music Workflow"
+  short_description: "Create Chinese Suno lyrics, prompts, and audio review plans."
+  default_prompt: "Help me turn this song idea into lyrics and a Suno Style prompt."
