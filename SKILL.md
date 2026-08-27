@@ -15,7 +15,8 @@ Ask for one clarification only when a missing choice blocks progress.
 
 For a song idea, provide a concise Chinese-first creative direction, a Hook or lyric draft, and a copyable English Style prompt. Keep every copyable Style prompt below 1,000 characters.
 
-Read [the lyric workflow](references/lyric-workflow.md) for Hook, drafting, and revision guidance. Read [the Style guide](references/style-guide.md) before writing or shortening a Style prompt.
+Read [the lyric workflow](references/lyric-workflow.md) for Hook, drafting, and revision guidance. Read [the production plan and Style guide](references/production-plan.md) before writing or shortening a Style prompt.
+Read [the Mandarin songwriting quality guide](references/mandarin-songwriting.md) before offering or expanding a Hook.
 
 ## Producer mode
 
@@ -32,7 +33,9 @@ Next experiments
 
 Put the relevant details under each label. `Next experiments` contains at most three items.
 
-Read [the lyric workflow](references/lyric-workflow.md) for scoped revisions, [the Style guide](references/style-guide.md) for prompt controls, and [the audio review guide](references/audio-review.md) for evidence-bounded audio and LRC review.
+Read [the lyric workflow](references/lyric-workflow.md) for scoped revisions. Read [the production plan and Style guide](references/production-plan.md) before writing or shortening a Style prompt. Read [the audio review guide](references/audio-review.md) for evidence-bounded audio and LRC review.
+Read [the Mandarin songwriting quality guide](references/mandarin-songwriting.md) before offering or expanding a Hook.
+Read [the non-Studio generation loop](references/generation-loop.md) after a generation result or feedback-led music revision.
 
 ## Published scenario contract
 
@@ -43,3 +46,8 @@ Read [the lyric workflow](references/lyric-workflow.md) for scoped revisions, [t
 | Pre-chorus-only revision with chorus fixed | Producer mode | change only the pre-chorus and keep the approved chorus fixed |
 | Overlong Style requiring supplied source text | Producer mode | require the source Style text, then preserve tempo or groove and avoid items while shortening it below 1,000 characters |
 | Audio/LRC request requiring supplied audio plus approved lyrics | Producer mode | require both supplied audio and approved lyrics; do not fabricate review evidence, official lyrics, or timestamps |
+| Template-like Hook | Fast mode | stop expansion, identify the missing landing point or contrast, and return to the Hook |
+| Rhyme harms natural Chinese | Fast mode | repair natural phrasing before rhyme; do not hide the problem with more wordplay |
+| Lyrics work but Style feels flat | Producer mode | keep lyrics fixed and change song identity or section dynamics only |
+| User only says the version feels ordinary | Producer mode | diagnose one likely layer and propose one controlled experiment, not a full rewrite |
+| Confirmed chorus stays fixed | Producer mode | preserve the approved chorus during local revision unless the user explicitly unlocks it |
