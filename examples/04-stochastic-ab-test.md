@@ -6,13 +6,13 @@
 
 ## 固定
 
-- Baseline A 与 treatment B 各生成 4 个候选，候选数量相等。
+- Baseline A（基线 A）与 treatment B（处理 B）各计划生成 4 个候选，候选数量相等。
 - 两组固定相同的歌词、Hook、主唱方向、段落结构、Style 基调和时长目标。
 - 两组都保留同一首教学歌曲的主题与副歌文本。
 
 ## 只改
 
-Baseline A 保持原有副歌入口；treatment B 只在副歌第一句前加入一拍停顿。除此以外不改变任何已固定选择。
+Baseline A（基线 A）保持原有副歌入口；treatment B（处理 B）只在副歌第一句前加入一拍停顿。除此以外不改变任何已固定选择。
 
 ## 期待听感
 
@@ -20,10 +20,10 @@ Baseline A 保持原有副歌入口；treatment B 只在副歌第一句前加入
 
 ## 证据与置信度
 
-- [Objective evidence] 计划中的 A、B 两组候选数量相同，且固定选择相同。
 - [User feedback] 创作者想检验“停一下再进副歌”是否更抓耳。
-- [Inference] 即使 B 组只有一首更好，也只能说明本轮出现了一个较好的 render，不能建立提示词因果关系。
-- 置信度：低；一首更好的 render 未经重复，随机差异仍可能解释结果。
+- [Inference] 这是一个拟议的匹配 A/B 实验：两组计划使用相同候选数量和固定选择；no generation or audio observation exists yet。
+- [Inference] 即使未来 B 组只有一首更好，也只能说明本轮出现了一个较好的 render（生成候选），不能建立提示词因果关系。
+- 置信度：低；实验尚未运行，尚无实际测量可用，随机差异仍可能解释未来结果。
 
 ## 下一步
 
