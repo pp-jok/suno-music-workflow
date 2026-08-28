@@ -1,4 +1,4 @@
 interface:
   display_name: "Suno Music Workflow"
-  short_description: "Create Chinese Suno lyrics, prompts, and audio review plans."
-  default_prompt: "Help me turn this song idea into lyrics and a Suno Style prompt."
+  short_description: "Mandarin songs with Hooks, plans, and controlled iteration."
+  default_prompt: "Use natural-language conversation to turn this song idea into a Hook, lyrics, and a Suno production plan."
