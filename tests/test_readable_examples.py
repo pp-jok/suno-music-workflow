@@ -75,6 +75,36 @@ class ReadableExamplesTests(unittest.TestCase):
         for phrase in required_phrases:
             self.assertIn(phrase, text)
 
+    def test_generation_loop_requires_consistent_agreement_and_distinct_evidence_roles(self):
+        text = (ROOT / "references" / "generation-loop.md").read_text(encoding="utf-8")
+
+        medium = next(line for line in text.splitlines() if line.startswith("- **Medium:"))
+        high = next(line for line in text.splitlines() if line.startswith("- **High:"))
+        self.assertIn("consistent direction", medium)
+        self.assertIn("user feedback agree", high)
+        self.assertIn("creator's report", text)
+        self.assertIn("producer or reviewer's interpretation", text)
+
+    def test_ordinary_example_keeps_the_rhythm_hypothesis_open(self):
+        text = (EXAMPLES / "02-feels-ordinary.md").read_text(encoding="utf-8")
+
+        self.assertIn("does not support the rhythm hypothesis yet", text)
+        self.assertIn("does not rule it out", text)
+
+    def test_ab_plan_is_an_inference_until_audio_exists(self):
+        text = (EXAMPLES / "04-stochastic-ab-test.md").read_text(encoding="utf-8")
+
+        self.assertIn("no generation or audio observation exists yet", text)
+        self.assertIn("[Inference]", text)
+        self.assertNotIn("[Objective evidence]", text)
+
+    def test_style_compression_waits_for_required_input_and_check(self):
+        text = (EXAMPLES / "05-style-compression.md").read_text(encoding="utf-8")
+
+        for phrase in ("置信度：低", "[Inference]", "source Style", "avoid constraint", "1,000"):
+            self.assertIn(phrase, text)
+        self.assertNotIn("置信度：中", text)
+
 
 if __name__ == "__main__":
     unittest.main()
