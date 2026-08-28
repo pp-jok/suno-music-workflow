@@ -51,3 +51,6 @@ Read [the non-Studio generation loop](references/generation-loop.md) after a gen
 | Lyrics work but Style feels flat | Producer mode | keep lyrics fixed and change song identity or section dynamics only |
 | User only says the version feels ordinary | Producer mode | diagnose one likely layer and propose one controlled experiment, not a full rewrite |
 | Confirmed chorus stays fixed | Producer mode | preserve the approved chorus during local revision unless the user explicitly unlocks it |
+| Single stochastic render appears better | Producer mode | report a low-confidence tendency, not prompt causality; compare multiple candidates when practical |
+| A section feels dragging | Producer mode | diagnose one likely lyrics, Hook, structure, dynamics, or vocal/Style layer before changing it |
+| Internal quality checks | Fast mode | show only the creative result and one or two material risks unless the user requests the checklist |
