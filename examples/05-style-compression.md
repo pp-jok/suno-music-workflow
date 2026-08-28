@@ -2,13 +2,13 @@
 
 ## 起点
 
-创作者已提供一段 source Style，内容冗长但包含必须保留的“轻微摇摆的吉他律动”和“不使用厚重 EDM drop”的避雷要求。没有这段 source Style，就不能凭空完成压缩；以下是收到原文后的教学处理方式。
+创作者尚未提供 source Style（源 Style），但已说明必须保留“轻微摇摆的吉他律动”和“不使用厚重 EDM drop”的避雷要求。source Style 是压缩的必需输入；没有它，就不能凭空完成压缩，以下只说明收到原文后的教学处理方式。
 
 ## 固定
 
-- 必须提供原始 source Style 后才开始压缩，并把它作为核对来源。
+- 必须提供原始 source Style（源 Style）后才开始压缩，并把它作为核对来源。
 - 保留命名的“轻微摇摆的吉他律动”、温暖的近距离人声方向和副歌抬升感。
-- 保留 avoid constraint：不使用厚重 EDM drop，也不以强烈合成器堆叠替代吉他律动。
+- 保留 avoid constraint（避雷约束）：不使用厚重 EDM drop，也不以强烈合成器堆叠替代吉他律动。
 
 ## 只改
 
@@ -20,11 +20,11 @@
 
 ## 证据与置信度
 
-- [Objective evidence] source Style 由创作者提供，压缩稿可按字符数检查是否低于 1,000。
 - [User feedback] 创作者要求保留轻微摇摆的吉他律动，并明确避开厚重 EDM drop。
-- [Inference] 删除重复描述比替换核心律动与避雷项更适合本次受控压缩。
-- 置信度：中；文本保留和长度可核对，但生成后的实际听感尚未提供。
+- [Inference] 收到 source Style（源 Style）后，先做压缩并计数；在这一步完成前，无法确认是否少于 1,000 个字符。
+- [Inference] 将压缩稿与 source Style 并排核对命名律动和 avoid constraint（避雷约束），是拟议的保留检查，尚未执行。
+- 置信度：低；必需的 source Style 尚未提供，压缩、字符计数与保留检查都还未运行。
 
 ## 下一步
 
-将压缩稿与 source Style 并排核对命名律动和 avoid constraint，再用相同歌词与 Hook 做有限候选比较；若避雷项失效，恢复最关键的原始措辞。
+收到 source Style（源 Style）后，将压缩稿与它并排核对命名律动和 avoid constraint（避雷约束），再用相同歌词与 Hook 做有限候选比较；若避雷项失效，恢复最关键的原始措辞。
