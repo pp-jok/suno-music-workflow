@@ -24,6 +24,18 @@ Do not infer causality from a single stochastic render. Record fixed choices, on
 
 One primary changed variable is one musical layer. It may include coordinated sub-changes inside that layer, such as a dynamic arc across Verse 2, Bridge, and Final Chorus; it must not cross into unrelated lyric, genre, tempo, and instrumentation changes.
 
+## Matched batch comparison
+
+Set up Baseline A and treatment B with the same approved choices and the same candidate count. B changes one musical layer and names the expected listening result. When credits allow, generate more than one candidate in each matched batch. A single render or unequal batches can suggest a next test, but cannot establish prompt causality.
+
+Record evidence with this exact vocabulary: `[Objective evidence]` is observable audio or run data; `[User feedback]` is the listener's stated reaction; `[Editorial judgement]` is the creator's assessment; `[Inference]` is a tentative explanation that still needs testing.
+
+## Confidence calibration
+
+- **Low:** one render, incomplete evidence, or no replication; report only “this round leans positive.”
+- **Medium:** multiple matched candidates, but evidence remains limited or subjective.
+- **High:** repeated matched batches plus clear, relevant feedback; this supports only a project-specific preference, not a universal rule.
+
 ## Diagnose before changing a dragging section
 
 For a dragging or ordinary result, identify one most likely layer: lyrics, Hook, structure, dynamics, or vocal/Style. State that the diagnosis is editorial judgement or inference, then test that layer; do not default to changing lyrics when structure or arrangement may be responsible.
