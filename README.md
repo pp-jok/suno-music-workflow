@@ -21,6 +21,18 @@
 - **Fast mode**：适合从想法快速得到创作方向、Hook、歌词、song identity 和制作计划。
 - **Producer mode**：适合局部改词、Style 压缩、controlled generation、音频复盘和 LRC；每次受控调整都会明确“改了什么、固定什么、证据限制、下一步实验”。
 
+## 从案例开始
+
+下面五个[案例](examples/)展示了怎样用最小、可复查的调整推进创作：
+
+- [固定副歌的局部修改](examples/01-locked-chorus.md)
+- [“感觉普通”的单变量实验](examples/02-feels-ordinary.md)
+- [流行能量的受控调整](examples/03-pop-energy.md)
+- [随机结果的 A/B 比较](examples/04-stochastic-ab-test.md)
+- [Style 压缩](examples/05-style-compression.md)
+
+这些都是虚构的教学 briefs，不是对结果的保证，也不代表官方 Suno 结果。
+
 ## 许可证
 
 [MIT](LICENSE)
