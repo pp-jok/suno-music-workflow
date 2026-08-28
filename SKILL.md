@@ -1,6 +1,6 @@
 ---
 name: suno-music-workflow
-description: Create Chinese lyrics, Suno Style prompts, and evidence-bounded audio reviews for independent music creation. Use when a user asks to turn a song idea into a Hook, lyrics, a Suno prompt, feedback-led revisions, audio diagnosis, or LRC timestamps.
+description: Create Chinese songs with Hooks, production plans, Suno Style prompts, controlled iteration, and evidence-bounded audio review. Use when a user asks to turn a song idea into a Hook, lyrics, a production plan, a Suno prompt, feedback-led revisions, audio diagnosis, or LRC timestamps.
 ---
 
 # Suno Music Workflow
@@ -14,6 +14,8 @@ Ask for one clarification only when a missing choice blocks progress.
 ## Fast mode
 
 For a song idea, provide a concise Chinese-first creative direction, a Hook or lyric draft, and a copyable English Style prompt. Keep every copyable Style prompt below 1,000 characters.
+
+For concise creator-readable examples of controlled revisions, read [the validation cases](examples/).
 
 Read [the lyric workflow](references/lyric-workflow.md) for Hook, drafting, and revision guidance. Read [the production plan and Style guide](references/production-plan.md) before writing or shortening a Style prompt.
 Read [the Mandarin songwriting quality guide](references/mandarin-songwriting.md) before offering or expanding a Hook.
